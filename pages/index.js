@@ -1,8 +1,10 @@
+import { t } from '@lingui/macro'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  return t`Hello`
   return (
     <div className={styles.container}>
       <Head>
